@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <!--suppress ALL -->
-<html lang="en" class="bg-[#352F40]">
+<html lang="en" class="bg-[#131316]">
 <head>
     <meta charset="UTF-8">
     <title>Self-Portfolio</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/711297a730.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<section id="portfolio" class="p-4 text-[#352F44] text-left">
-    <div id="home-card" class="p-10 bg-[#F4EAE0] h-[96.5vh] border rounded-xl flex justify-between ">
-        <div id="home-left" class="flex flex-col justify-center px-20">
-            <h3 id="home-h3" class="text-4xl">&nbsphi, my name is</h3>
-            <h1 id="home-h1" class="text-9xl">Umar Farooq</h1>
-            <h2 id="home-h2" class="text-5xl"><b>&nbsp<</b> web developer<span><b> . </b></span>front-end<b> /></b></h2>
-            <div class="home-left-buttons flex text-2xl mt-16 gap-5 ml-3 w-fit">
-<!--                <div class="flex">-->
-<!--                    <b>C:/users/umar_farooq~ &nbsp</b>-->
-<!--                    <p>ls</p>-->
-<!--                </div>-->
-<!--                <p id="button-about">> about me</p>-->
-<!--                <p id="button-contact">> get in touch</p>-->
 
-                <a href="#" id="button-dark"><b>about me</b></a>
+<section id="portfolio" class="p-6 text-[#352F44] text-left">
+    <div id="home-card" class="p-10 bg-[#F4EAE0] h-[95vh] border rounded-xl flex justify-between">
+
+        <div id="home-left" class="flex flex-col justify-center px-20 ">
+            <div class="terminal-effect w-fit">
+                <h3 id="home-neofetch" class="text-2xl terminal"><b>C:/users/portfolio~</b> neofetch</h3>
+            </div>
+
+            <h1 id="home-name" class="text-9xl ml-[-8px]"><b>Umar Farooq</b></h1>
+            <b id="home-role" class="text-4xl mt-2"><span><</span>web developer<span><b> . </b></span>front-end/></b>
+            <p class="text-2xl leading-9 mt-8"><b>></b> I specialize in
+                crafting effortlessly user-friendly websites that not only captivate with
+                <br>stunning
+                aesthetics but also deliver seamless and engaging experiences – just like the <br> one you're exploring
+                right
+                now.</p>
+
+            <div class="home-left-buttons flex text-2xl mt-12 gap-5 w-fit">
+                <!--                <div class="flex">-->
+                <!--                    <b>C:/users/umar_farooq~ &nbsp</b>-->
+                <!--                    <p>ls</p>-->
+                <!--                </div>-->
+                <!--                <p id="button-about">> about me</p>-->
+                <!--                <p id="button-contact">> get in touch</p>-->
+
+                <a href="#" id="button-dark">about me</a>
                 <a href="#" id="button-light">get in touch</a>
             </div>
         </div>
 
-        <div id="home-right w-screen text-right">
+        <div id="home-right" class="flex flex-col justify-between text-right items-end">
             <a href="https://github.com/umarfarooq6529" target="_blank"><i class="fa-brands text-6xl fa-github"></i>
             </a>
+
+            <dotlottie-player class="mr-28 mt-14"
+                              src="https://lottie.host/66867abb-33fd-41df-b971-4f2e3cf29317/Lr0Mmg6BKz.json"
+                              background="transparent" speed="1" loop style="width: 90%"
+                              autoplay></dotlottie-player>
+
+            <dotlottie-player src="https://lottie.host/b43af6b0-6c7d-4da6-8003-d6fe28266d0c/Ivn0C5Ehvk.json"
+                              background="transparent" speed="1" loop style="width: 150px; height: 150px"
+                              autoplay></dotlottie-player>
         </div>
+    </div>
+
+    <div class="about-card mt-10 p-10 bg-[#F4EAE0] h-[95vh] border rounded-xl flex justify-between">
+        <h1>About me</h1>
     </div>
 </section>
 <script type="text/javascript" src="app.js"></script>

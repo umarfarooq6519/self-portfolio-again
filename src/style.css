@@ -1,0 +1,23 @@
+/* typewriteEffect */
+
+.terminal {
+    padding-top: 1px;
+    padding-right: 3px;
+    border-right: 3px solid #352F44;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: typing 2.7s, cursor 0.5s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
