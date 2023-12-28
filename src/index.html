@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--suppress ALL -->
-<html lang="en" class="bg-[#131316]">
+<html lang="en" class="bg-[#131316] scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <title>Self-Portfolio</title>
@@ -13,22 +13,21 @@
 </head>
 <body>
 
-<section id="portfolio" class="p-6 text-[#352F44] text-left">
+<section id="portfolio" class="p-6 text-[#352F44] text-left ">
     <div id="home-card" class="p-10 bg-[#F4EAE0] h-[95vh] border rounded-xl flex justify-between">
 
-        <div id="home-left" class="flex flex-col justify-center px-20 ">
-            <div class="terminal-effect w-fit">
-                <h3 id="home-neofetch" class="text-2xl terminal"><b>C:/users/portfolio~</b> neofetch</h3>
+        <div id="home-left" class="flex flex-col justify-center px-20">
+            <div class="terminal-effect text-2xl w-fit flex">
+                <h3 id="home-neofetch" class="terminal mb-5"><b>C:/users/portfolio~</b> neofetch</h3>
+
             </div>
 
             <h1 id="home-name" class="text-9xl ml-[-8px]"><b>Umar Farooq</b></h1>
             <b id="home-role" class="text-4xl mt-2"><span><</span>web developer<span><b> . </b></span>front-end/></b>
-            <p class="text-2xl leading-9 mt-8"><b>></b> I specialize in
-                crafting effortlessly user-friendly websites that not only captivate with
-                <br>stunning
-                aesthetics but also deliver seamless and engaging experiences – just like the <br> one you're exploring
-                right
-                now.</p>
+            <p class="text-2xl leading-9 mt-8"><b>></b> I specialize in crafting user-friendly websites that not only
+                captivate with
+                stunning <br>&nbsp;&nbsp; aesthetics but also deliver seamless and engaging experiences – just like the one <br>&nbsp;&nbsp; you're exploring right now.
+            </p>
 
             <div class="home-left-buttons flex text-2xl mt-12 gap-5 w-fit">
                 <!--                <div class="flex">-->
@@ -38,13 +37,13 @@
                 <!--                <p id="button-about">> about me</p>-->
                 <!--                <p id="button-contact">> get in touch</p>-->
 
-                <a href="#" id="button-dark">about me</a>
+                <a href="#about-card" id="button-dark">about me</a>
                 <a href="#" id="button-light">get in touch</a>
             </div>
         </div>
 
         <div id="home-right" class="flex flex-col justify-between text-right items-end">
-            <a href="https://github.com/umarfarooq6529" target="_blank"><i class="fa-brands text-6xl fa-github"></i>
+            <a href="https://github.com/umarfarooq6529" target="_blank"><i class="fa-brands text-6xl fa-github drop-shadow-lg"></i>
             </a>
 
             <dotlottie-player class="mr-28 mt-14"
@@ -58,7 +57,7 @@
         </div>
     </div>
 
-    <div class="about-card mt-10 p-10 bg-[#F4EAE0] h-[95vh] border rounded-xl flex justify-between">
+    <div id="about-card" class="about-card mt-7 p-10 bg-[#F4EAE0] h-[92vh] border rounded-xl flex justify-between">
         <h1>About me</h1>
     </div>
 </section>
