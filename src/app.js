@@ -8,3 +8,10 @@ const button_dark = document.querySelectorAll("#button-dark")
 button_dark.forEach(button => {
     button.classList.add("border", "border-[#352F44]", "px-4", "py-3", "rounded-lg", "bg-[#352F44]", "text-[#F4EAE0]", "transition", "hover:bg-[#F4EAE0]", "hover:text-[#352F44]", "shadow-lg");
 });
+
+// styling <p>
+const p = document.querySelectorAll("p");
+
+p.forEach(p => {
+    p.classList.add("text-2xl", "leading-9", "mt-8", "text-justify");
+})
